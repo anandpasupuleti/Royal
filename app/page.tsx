@@ -32,6 +32,12 @@ export default function Home() {
     
     {data.map(category => <Category itemsList={category.itemList} category={category.category} key={category.category}/>)}
     
+    <footer className="text-center bg-gray-950 text-white p-5">
+      developed by <a href="https://www.linkedin.com/in/anandpasupuleti/" className="underline"> Anand Pasupuleti </a> <br />
+      images are for illustration purpose only
+      <br />
+      &copy; 2025 Royal fruit juice.
+    </footer>
     </>
   );
 }

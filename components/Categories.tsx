@@ -1,10 +1,10 @@
 
 export default function Category({itemsList, category}:{itemsList:Product[], category:string}) {
   return (
-    <div className="m-2 rounded-xl py-3" id={category}>
-      <h1 className="mt-8 px-2 font-serif text-4xl uppercase">{category}</h1>
+    <div className=" rounded-xl py-3" id={category}>
+      <h1 className="sticky top-0 bg-white mt-8 shadow  p-3 font-serif text-4xl uppercase">{category}</h1>
 
-      <div className="space-y-2 p-2">
+      <div className="space-y-2 p-2 m-2">
         {itemsList.map((item) => (
           <div
             key={item.name}
@@ -17,7 +17,7 @@ export default function Category({itemsList, category}:{itemsList:Product[], cat
             />
             <span className="space-y-0.5">
               <p className="text-xl font-semibold">{item.name}</p>
-              <p className="font-medium text-red-700">${item.price}</p>
+              <p className="font-bold text-red-700">&#8377;{item.price}</p>
             </span>
           </div>
         ))}
