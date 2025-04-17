@@ -22,7 +22,7 @@ export const juices:Product[] = [
     },
     {
         name:"Pomagranate",
-        price:50,
+        price:60,
         image:'/juices/pomagranate.jpg',
     },
     {
@@ -52,7 +52,7 @@ export const juices:Product[] = [
     },
     {
         name:"Allmix",
-        price:50,
+        price:60,
     },
     {
         name:"Dry Fruit",
@@ -98,7 +98,7 @@ export const iceCream:Product[] =[
         image:'/icecream/americandryfruit.jpg',
     },
     {
-        name:"Chocklet",
+        name:"Chocolate",
         price:40,
         image:'/icecream/chocolate.jpg',
     },
@@ -113,7 +113,7 @@ export const iceCream:Product[] =[
         image:'/icecream/italianbounty.jpg',
     },
     {
-        name:"Carameel",
+        name:"Caramel",
         price:40,
         image:'/icecream/caramel.jpg',
     },
@@ -243,7 +243,7 @@ export const MilkShake:Product[] = [
         image:'/milkshake/fruitpunch.jpg',
     },
     {
-        name:"Badam Milk",
+        name:"SP Badam Milk",
         price:50,
         image:'/milkshake/badam.jpg',
     }
